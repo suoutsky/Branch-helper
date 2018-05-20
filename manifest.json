@@ -1,0 +1,12 @@
+{
+  "manifest_version": 2,
+  "name": "branch-helper",
+  "description": "a currently clone",
+  "version": "1.0",
+  "content_scripts": [
+    {
+      "matches": ["*://*/job*build*"],
+      "js": ["main.js"]
+    }
+  ]
+}
